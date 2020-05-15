@@ -15,7 +15,7 @@ async function promptUser() {
         .prompt(
             {
                 type: 'list',
-                message: 'Select Role',
+                message: ' Please select role of the employee from list',
                 name: 'role',
                 choices: ["Manager", "Engineer", "Intern", "Exit"]
             },
